@@ -33,11 +33,30 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <!--
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kakao Account or Password</a>
+    </form>
+    -->
+
+    <form action="friends.html" method="get" class="login-form">
+      <input
+        name="username"
+        class="login-form__text"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        name="password"
+        class="login-form__text"
+        type="password"
+        placeholder="Password"
+      />
+      <input class="login-form__btn" type="submit" value="Log In" />
+      <a class="login-form__a" href="#">Find Kakao Account or Password</a>
     </form>
 
     <script
