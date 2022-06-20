@@ -23,14 +23,3 @@
   left: 15px;
   bottom: 15px;
 }
-
-.nav__notification--small {
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  display: flex;
-  position: absolute;
-  left: 30px;
-  bottom: 25px;
-}
